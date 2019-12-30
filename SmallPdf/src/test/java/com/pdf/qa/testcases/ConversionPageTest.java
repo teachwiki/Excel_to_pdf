@@ -25,63 +25,63 @@ public class ConversionPageTest extends TestBase {
 	}
 	
 	@Test(priority=1)
-	public void uploadXlsxWithSingleSheet() throws IOException, AWTException{
+	public void uploadXlsxWithSingleSheetTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath1"));
 		Assert.assertTrue(flag);
 	}
 	
 	@Test(priority=2)
-	public void uploadXlsxWithTwoSheets() throws IOException, AWTException{
+	public void uploadXlsxWithTwoSheetsTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath2"));
 		Assert.assertTrue(flag);
 	}
 	
 	@Test(priority=3)
-	public void uploadWordFile() throws IOException, AWTException{
+	public void uploadWordFileTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath3"));
 		Assert.assertTrue(flag);
 	}
 	
 	@Test(priority=4)
-	public void uploadXlsxWithMultipleSheets() throws IOException, AWTException{
+	public void uploadXlsxWithMultipleSheetsTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath4"));
 		Assert.assertTrue(flag);
 	}
 	
 	@Test(priority=5)
-	public void uploadCsvFile() throws IOException, AWTException{
+	public void uploadCsvFileTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath5"));
 		Assert.assertTrue(flag);
 	}
 	
 	@Test(priority=6)
-	public void uploadXlsmFile() throws IOException, AWTException{
+	public void uploadXlsmFileTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath6"));
 		Assert.assertTrue(flag);
 	}
 	
 	@Test(priority=7)
-	public void uploadXlsbFile() throws IOException, AWTException{
+	public void uploadXlsbFileTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath7"));
 		Assert.assertTrue(flag);
 	}
 	
 	@Test(priority=8)
-	public void uploadXlsFile() throws IOException, AWTException{
+	public void uploadXlsFileTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath8"));
 		Assert.assertTrue(flag);
 	}
 	
 	@Test(priority=9)
-	public void uploadRenamedTxtFile() throws IOException, AWTException{
+	public void uploadRenamedTxtFileTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath9"));
 		Assert.assertTrue(flag);
