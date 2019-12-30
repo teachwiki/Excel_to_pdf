@@ -5,13 +5,16 @@
     <classes>
       <class name="com.pdf.qa.testcases.ConversionPageTest">
         <methods>
-          <include name="uploadXlsbFile"/>
-          <include name="uploadRenamedTxtFile"/>
-          <include name="uploadCsvFile"/>
+          <include name="uploadWordFileTest"/>
+          <include name="uploadXlsbFileTest"/>
+          <include name="uploadXlsxWithMultipleSheetsTest"/>
+          <include name="uploadXlsxWithSingleSheetTest"/>
+          <include name="uploadXlsxWithTwoSheetsTest"/>
+          <include name="uploadRenamedTxtFileTest"/>
+          <include name="uploadXlsmFileTest"/>
+          <include name="uploadCsvFileTest"/>
+          <include name="uploadXlsFileTest"/>
           <include name="tearDown"/>
-          <include name="uploadXlsxWithMultipleSheets"/>
-          <include name="uploadWordFile"/>
-          <include name="uploadXlsxWithTwoSheets"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.pdf.qa.testcases.ConversionPageTest -->

@@ -22,8 +22,8 @@ public class TestBase {
 		
 		try{
 				prop = new Properties();
-			 	FileInputStream ip = new FileInputStream("C:/Users/Hp/eclipse-workspace/SmallPdf/src"
-			 			+ "/main/java/com/pdf/qa/config/config.properties");
+			 	FileInputStream ip = new FileInputStream("C:/Users/Hp/git/SmallPdf_Excel_to_pdf"
+			 			+ "/SmallPdf/src/main/java/com/pdf/qa/config/config.properties");
 				prop.load(ip);
 			}	catch(FileNotFoundException e){
 				e.printStackTrace();
