@@ -5,15 +5,7 @@
     <classes>
       <class name="com.pdf.qa.testcases.ConversionPageTest">
         <methods>
-          <include name="uploadWordFileTest"/>
-          <include name="uploadXlsbFileTest"/>
-          <include name="uploadXlsxWithMultipleSheetsTest"/>
           <include name="uploadXlsxWithSingleSheetTest"/>
-          <include name="uploadXlsxWithTwoSheetsTest"/>
-          <include name="uploadRenamedTxtFileTest"/>
-          <include name="uploadXlsmFileTest"/>
-          <include name="uploadCsvFileTest"/>
-          <include name="uploadXlsFileTest"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>

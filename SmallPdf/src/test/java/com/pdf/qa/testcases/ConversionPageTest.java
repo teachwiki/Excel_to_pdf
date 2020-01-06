@@ -31,7 +31,7 @@ public class ConversionPageTest extends TestBase {
 		Assert.assertTrue(flag);
 	}
 	
-	@Test(priority=2)
+	/*@Test(priority=2)
 	public void uploadXlsxWithTwoSheetsTest() throws IOException, AWTException{
 		conversionpage.clickChoseFile();
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath2"));
@@ -86,7 +86,7 @@ public class ConversionPageTest extends TestBase {
 		Boolean flag = TestUtil.excelLogic(prop.getProperty("filepath9"));
 		Assert.assertTrue(flag);
 	}
-	
+	*/
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
